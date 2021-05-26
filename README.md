@@ -30,12 +30,12 @@ from sklearn.preprocessing import StandardScaler,OneHotEncoder
 
 ## Example
 
-### This first image shows results for the original data. It shows the accuracy score, confusion matrix, and the classification report.
+#### This first image shows the model loss and accuracy values for the original model, the first alternative model, and the second alternative model. Notice the second alternative model performs the best.
 
-![original](./readme_images/original.png)
+![original](./readme_images/mod_13_1.png)
 
 
-### The next image shows results for the resampled data. It shows the accuracy score, confusion matrix, and the classification report.
+#### The next image shows results for the resampled data. It shows the accuracy score, confusion matrix, and the classification report.
 
 ![resampled](./readme_images/resampled.png)
 
