@@ -35,9 +35,14 @@ from sklearn.preprocessing import StandardScaler,OneHotEncoder
 ![original](./readme_images/mod_13_1.png)
 
 
-#### The next image shows results for the resampled data. It shows the accuracy score, confusion matrix, and the classification report.
+#### This next image shows the summary for the original model.
 
-![resampled](./readme_images/resampled.png)
+![resampled](./readme_images/mod_13_4.png)
+
+
+#### This final image shows the summary for the second alternative model, which performed better than all the other models.
+
+![resampled](./readme_images/mod_13_2.png)
 
 
 ---
