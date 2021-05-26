@@ -6,7 +6,9 @@ Our first step in this challenge was to prepare the data for use on a neural net
 
 The second step was to compile and evaluate a binary classification model using a neural network. We used TensorFlow's Keras for this model. We then calculated the model's loss and accuracy.
 
-The final step in this challenge was to 
+The final step in this challenge was to optimize our neural network model. We did this twice to explore different methods of optimization. The ultimate goal of this step was to improve the model's accuracy. With the final model, I was able to improve the model's accuracy.
+
+#### Note: I've included all 3 HDF5 files in the 'Resources' folder of this repository. Thanks!
 
 ---
 
@@ -15,15 +17,13 @@ The final step in this challenge was to
 Import the following at the beginning of your jupyter notebook:
 
 ```python
-import numpy as np
 import pandas as pd
 from pathlib import Path
-from sklearn.metrics import balanced_accuracy_score
-from sklearn.metrics import confusion_matrix
-from imblearn.metrics import classification_report_imbalanced
-
-import warnings
-warnings.filterwarnings('ignore')
+import tensorflow as tf
+from tensorflow.keras.layers import Dense
+from tensorflow.keras.models import Sequential
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler,OneHotEncoder
 ```
 
 ---
